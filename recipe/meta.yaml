@@ -29,8 +29,8 @@ requirements:
     - pip
     - setuptools_scm
   run:
-    - python >=3.6
-    - cartopy =0.18
+    - python
+    - cartopy
     - netcdf4
     - pip
     - xarray
