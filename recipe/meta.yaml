@@ -25,7 +25,7 @@ requirements:
     - {{ cdt('libxext') }}     # [linux]
   host:
     - xorg-libxfixes  # [linux]
-    - python >=3.6
+    - python
     - pip
     - setuptools_scm
   run:
