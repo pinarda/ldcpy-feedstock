@@ -70,5 +70,3 @@ about:
 extra:
   recipe-maintainers:
     - pinarda
-  container:
-    extended-base: true
