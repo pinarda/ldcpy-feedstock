@@ -47,10 +47,6 @@ requirements:
     - scikit-image
     - opencv
 
-extra:
-  container:
-    extended-base: true
-
 test:
   imports:
     - ldcpy
@@ -74,3 +70,5 @@ about:
 extra:
   recipe-maintainers:
     - pinarda
+  container:
+    extended-base: true
