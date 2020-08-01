@@ -16,6 +16,7 @@ build:
 
 requirements:
   build:
+    - {{ cdt('mesa-libgl-devel') }}  # [linux]
   host:
     - python >=3.6
     - pip
