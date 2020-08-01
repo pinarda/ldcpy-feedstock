@@ -37,7 +37,7 @@ requirements:
     - jupyterlab
     - cython
     - scikit-image
-    - opencv =3.4.1
+    - opencv
 
 test:
   imports:
