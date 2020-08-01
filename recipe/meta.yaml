@@ -47,6 +47,10 @@ requirements:
     - scikit-image
     - opencv
 
+extra:
+  container:
+    extended-base: true
+
 test:
   imports:
     - ldcpy
