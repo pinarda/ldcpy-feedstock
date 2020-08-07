@@ -29,7 +29,7 @@ requirements:
     - matplotlib-base
     - netcdf4
     - numpy
-    - opencv-python
+    - opencv
     - pip
     - python
     - scikit-image
