@@ -36,6 +36,7 @@ requirements:
     - scipy
     - xarray
     - xrft
+    - cartopy
 
 test:
   imports:
