@@ -16,36 +16,26 @@ build:
 requirements:
   build:
     - {{ compiler('c') }}
-    - {{ compiler('cxx') }}
-    - {{ cdt('mesa-libgl-devel') }}  # [linux]
-    - {{ cdt('mesa-dri-drivers') }}  # [linux]
-    - {{ cdt('libselinux') }}  # [linux]
-    - {{ cdt('libxdamage') }}  # [linux]
-    - {{ cdt('libxxf86vm') }}  # [linux]
-    - {{ cdt('libxext') }}     # [linux]
   host:
-    - xorg-libxfixes  # [linux]
-    - python
     - pip
+    - python
+    - setuptools >=30.3.0
     - setuptools_scm
   run:
-    - python
-    - cartopy
-    - netcdf4
-    - pip
-    - xarray
-    - zfpy
-    - xrft
     - cmocean
-    - numpy
-    - scipy
-    - matplotlib
-    - dask
-    - intake-esm
-    - jupyterlab
     - cython
+    - dask
+    - jupyterlab
+    - matplotlib-base
+    - netcdf4
+    - numpy
+    - opencv-python
+    - pip
+    - python
     - scikit-image
-    - opencv
+    - scipy
+    - xarray
+    - xrft
 
 test:
   imports:
