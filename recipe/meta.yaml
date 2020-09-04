@@ -37,6 +37,7 @@ requirements:
     - xarray
     - xrft
     - cartopy
+    - nc-time-axis
 
 test:
   imports:
