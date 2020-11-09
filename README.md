@@ -5,9 +5,13 @@ Home: https://github.com/NCAR/ldcpy
 
 Package license: Apache-2.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ldcpy-feedstock/blob/master/LICENSE.txt)
 
 Summary: A utility for gathering and plotting metrics from NetCDF files using the Pangeo stack.
+
+Development: https://github.com/NCAR/ldcpy
+
+Documentation: https://ldcpy.readthedocs.io/
 
 A utility for gathering and plotting metrics from NetCDF files using the Pangeo stack.
 
