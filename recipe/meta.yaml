@@ -1,5 +1,5 @@
 {% set name = "ldcpy" %}
-{% set version = "0.12" %}
+{% set version = "0.14.3" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 9da492100e36bc7ba10357c289950068c8876cec6f44fbbf09b4a46cef698fb6
+  sha256: 46d77dc0c444b309048c98f91820e45af1fd6bac491cf74afa6c4a187890945d
 
 build:
   number: 0
@@ -38,6 +38,7 @@ requirements:
     - xrft
     - cartopy
     - nc-time-axis
+    - cf_xarray
 
 test:
   imports:
