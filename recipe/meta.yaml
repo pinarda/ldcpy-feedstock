@@ -1,5 +1,5 @@
 {% set name = "ldcpy" %}
-{% set version = "0.15.3" %}
+{% set version = "0.15.4" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 5aec42f1eebd0d259a8af97dd2e40ef6f0f59c01d01b41ffd26dc3c6812a1e67
+  sha256: 32aa5a05107a383ad99d1a2617495dde7d8a2ef26c52551d63f9990d5a115d5f
 
 build:
   number: 0
